@@ -19,14 +19,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         @if(Auth::user())
               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item {{ Route::current()->getName() === 'scrapes' ? 'active' : ''  }}">
+                  <li class="nav-item {{ Route::current()->getName() === 'home' ? 'active' : ''  }}">
                     <a class="nav-link" href="{{ url('/home') }}">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::current()->getName() === 'link1' ? 'active' : ''  }}" href="{{ url('/link1') }}">Link 1</a>
+                    <a class="nav-link {{ Route::current()->getName() === 'link1' ? 'active' : ''  }}" href="#">Link 1</a>
                 </li>
                 <li class="nav-item {{ Route::current()->getName() === 'link2' ? 'active' : ''  }}">
-                    <a class="nav-link" href="{{ url('/link2') }}"></i>Link 2</a>
+                    <a class="nav-link" href="#"></i>Link 2</a>
                 </li>
             </ul>
         @endif
