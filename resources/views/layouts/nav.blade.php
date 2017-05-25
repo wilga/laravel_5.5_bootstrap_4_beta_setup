@@ -20,7 +20,7 @@
         @if(Auth::user())
               <ul class="navbar-nav mr-auto">
                   <li class="nav-item {{ Route::current()->getName() === 'scrapes' ? 'active' : ''  }}">
-                    <a class="nav-link" href="{{ url('/dashboard') }}">Dashboard</a>
+                    <a class="nav-link" href="{{ url('/home') }}">Dashboard</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link {{ Route::current()->getName() === 'link1' ? 'active' : ''  }}" href="{{ url('/link1') }}">Link 1</a>
