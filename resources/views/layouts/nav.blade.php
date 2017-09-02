@@ -1,6 +1,6 @@
 {{-- TOP NAV BAR --}}
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    
+{{-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded"> was for 4.0.0-alpha.6 --}}
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     {{-- HAMBURGER BUTTON FOR COLLAPSED NAV --}}
     <button class="navbar-toggler navbar-toggler-right" 
         type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,7 +32,7 @@
         @endif
 
         {{-- AUTHORIZATION & PERSONAL INFO NAV --}}
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
             {{-- LOGIN OR REGISTER IF NOT LOGGED IN --}}
             @if (Auth::guest())
                 <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">Login</a></li>

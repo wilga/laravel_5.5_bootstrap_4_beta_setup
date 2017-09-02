@@ -2,8 +2,8 @@
 
 @section('content')
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
             <div class="">
                 @if (session('status'))
                     <div class="alert alert-success">
@@ -58,7 +58,7 @@
                     </div>
 
                     <div class="form-group">
-                        <div class="col-md-6 col-md-offset-4">
+                        <div class="col-md-6 ml-auto">
                             <button type="submit" class="btn btn-primary">
                                 Reset Password
                             </button>

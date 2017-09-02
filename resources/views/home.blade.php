@@ -2,10 +2,8 @@
 
 @section('content')
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2 mt-3">
-                    You are logged in!
-        </div>
+    <div class="row justify-content-center">
+		<example></example>
     </div>
 </div>
 @endsection
