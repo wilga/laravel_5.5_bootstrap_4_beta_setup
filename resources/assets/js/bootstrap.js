@@ -14,6 +14,8 @@ try {
     require('bootstrap');
 } catch (e) {}
 
+import 'jquery-ui/ui/widgets/datepicker.js';
+
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
@@ -52,3 +54,5 @@ if (token) {
 //     broadcaster: 'pusher',
 //     key: 'your-pusher-key'
 // });
+
+window.fullcalendar = require('fullcalendar');

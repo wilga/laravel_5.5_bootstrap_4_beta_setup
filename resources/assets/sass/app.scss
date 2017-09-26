@@ -2,11 +2,18 @@
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 
-// Variables
-//@import "variables";
+
 
 // Bootstrap
 @import "node_modules/bootstrap/scss/bootstrap.scss";
 
+// Variables
+@import "variables";
+
+
 // Font Awesome
 @import 'node_modules/font-awesome/scss/font-awesome.scss';
+
+@import '~fullcalendar/dist/fullcalendar.css';
+
+@import '~jquery-ui/themes/base/all.css';

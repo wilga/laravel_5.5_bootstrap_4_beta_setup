@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
+    <div class="container auth">
         <div class="col-md-10">
             <div class="card m-3">
                 <div class="card-body">
