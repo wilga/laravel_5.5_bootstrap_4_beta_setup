@@ -22,3 +22,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/calendar', 'CalendarController@index')->name('calendar');
 
 Route::post('/message', 'MessageController@send');
+
+Route::fallback(function () {
+    return view('errors.404');
+});

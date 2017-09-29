@@ -8,9 +8,8 @@ window._ = require('lodash');
  */
 
 try {
+    window.Popper = require('popper.js/dist/umd/popper.js').default;
     window.$ = window.jQuery = require('jquery');
-    // window.Tether = require('tether'); This was required for 4.0.0-alpha.6
-    window.Popper = require('popper.js').default;
     require('bootstrap');
 } catch (e) {}
 
